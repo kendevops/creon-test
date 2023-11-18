@@ -39,7 +39,7 @@ export default function Nav({ showMenu, toggle }: NavType) {
             <NavList />
           </nav>
         </div>
-        <div className="flex justify-center items-center gap-[10px]">
+        <div className="flex gap-[10px]">
           <Link href="#" className="border-2 border-white rounded-full p-2">
             <Image alt="creon telegram" src="/Icons/telegram.svg" width={16} height={16} />
           </Link>
