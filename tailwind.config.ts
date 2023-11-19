@@ -11,13 +11,15 @@ const config: Config = {
       backgroundImage: {
         "video-pattern":
           "linear-gradient(175deg, rgba(61, 139, 255, 0.44) 4.29%, #AB23FF 95.71%)",
+        "image-pattern":
+          "linear-gradient(175deg, #3D8BFF 4.29%, #AB23FF 95.71%)",
         "hero-pattern":
           "linear-gradient(175deg, #000 4.29%, #3D8BFF 47.39%, #AB23FF 95.05%)",
         linear: "linear-gradient(var(--linear))",
       },
       colors: {
         Purple: "#AB23FF",
-        GreyLine: "#13171D"
+        GreyLine: "#13171D",
       },
       fontFamily: {
         monument: "var(--font-monument)",

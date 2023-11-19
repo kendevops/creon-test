@@ -36,7 +36,7 @@ export default function Header() {
           width={38}
           height={38}
           onClick={toggleMenu}
-          className="cursor-pointer xl:hidden block"
+          className="cursor-pointer xl:hidden block flex-shring-0"
         />
       </section>
     </header>

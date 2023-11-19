@@ -14,7 +14,6 @@ export default function CreonPassRight() {
           type="video/mp4"
         />
       </video>
-      {/* <div className="absolute bg-white rounded-[808px] w-[808px] h-[170px] flex-shrink-0 rotate-90  right-0 bottom-0"></div> */}
       {/* Ellipse at the top */}
       <div className="absolute top-0 left-[80%] transform -translate-x-1/2 -translate-y-1/2 w-[1288px] h-[134px] bg-black rounded-[1288px] overflow-hidden"></div>
 
