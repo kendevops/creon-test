@@ -9,15 +9,15 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "video-pattern":
+          "linear-gradient(175deg, rgba(61, 139, 255, 0.44) 4.29%, #AB23FF 95.71%)",
         "hero-pattern":
           "linear-gradient(175deg, #000 4.29%, #3D8BFF 47.39%, #AB23FF 95.05%)",
         linear: "linear-gradient(var(--linear))",
       },
       colors: {
         Purple: "#AB23FF",
+        GreyLine: "#13171D"
       },
       fontFamily: {
         monument: "var(--font-monument)",

@@ -18,7 +18,7 @@ export default function Hero() {
           {"The world's first platform for Tokenizing AI blockchain projects"}
         </h1>
         <div className="w-[656px] border-y bg-linear bg-clip-border border-transparent">
-          <div className="bg-black">
+          <div className="bg-black pt-[7px] pb-[12px]">
             <p className="bg-linear bg-clip-text text-transparent font-bold font-satoshi text-[22px] leading-[130%]">
               Hold the Creon Pass NFT and earn passive income from AI Tools
             </p>
@@ -30,7 +30,7 @@ export default function Hero() {
           Empowering AI-Crypto Innovations and Integrating AI Tools into crypto.
         </h1>
         <div className="w-[465px] border-y bg-linear bg-clip-border border-transparent lg:w-[656px]">
-          <div className="bg-black">
+          <div className="bg-black pt-[7px] pb-[12px]">
             <p className="bg-linear bg-clip-text text-transparent font-bold font-satoshi text-[18px] leading-[130%]">
               Creon «Create On» confidential AI Tools for granting access
               through NFTs.
