@@ -1,8 +1,8 @@
 import Image from "next/image";
 
-type TokenType = {
+export type CardType = {
   title: string;
-  subTitle: string;
+  subTitle?: string;
   imgSrc: string;
   description: string;
 };
@@ -12,7 +12,7 @@ export default function Token({
   subTitle,
   imgSrc,
   description,
-}: TokenType) {
+}: CardType) {
   return (
     <div className="py-[30px] w-[453px] h-[659px] rounded-md bg-CardColor flex-shrink-0 relative">
       <p className="absolute inline-flex py-[3px] px-[6px] justify-center items-center font-satoshi bg-white text-black text-[12px] font-bold leading-[110%] duration-300 transform -translate-y-4 scale-100 top-2 z-10 origin-[0] right-8 rounded-[100px]">

@@ -1,10 +1,12 @@
+import Image from "next/image";
+
 import ComingSoon from "@/components/layouts/ComingSoon";
+import Ai from "@/components/layouts/Ai";
 import CreonPass from "@/components/layouts/CreonPass";
 import Header from "@/components/layouts/Header";
 import Hero from "@/components/layouts/Hero";
 import Mission from "@/components/layouts/Mission";
 import Profiting from "@/components/layouts/Profiting";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -14,6 +16,7 @@ export default function Home() {
       <Profiting />
       <Mission />
       <ComingSoon />
+      <Ai />
     </main>
   );
 }
