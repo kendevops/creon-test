@@ -40,13 +40,13 @@ export default function Nav({ showMenu, toggle }: NavType) {
           </nav>
         </div>
         <div className="flex gap-[10px]">
-          <Link href="#" className="border-2 border-white rounded-full p-2">
+          <Link href="#" className="border-2 border-white rounded-full p-2 flex-shrink-0">
             <Image alt="creon telegram" src="/Icons/telegram.svg" width={16} height={16} />
           </Link>
-          <Link href="#" className="border-2 border-white rounded-full p-2">
+          <Link href="#" className="border-2 border-white rounded-full p-2 flex-shrink-0">
             <Image alt="creon telegram" src="/Icons/discord.svg" width={16} height={16} />
           </Link>
-          <Link href="#" className="border-2 border-white rounded-full p-2">
+          <Link href="#" className="border-2 border-white rounded-full p-2 flex-shrink-0">
             <Image alt="creon telegram" src="/icons/twitter.svg" width={16} height={16} />
           </Link>
         </div>
