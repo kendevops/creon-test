@@ -5,7 +5,7 @@ export default function ComingSoon() {
     <section className="px-[190px] pt-20 pb-20 flex flex-col gap-10">
       <AiCard
         title={"AI Prospects, Market Size, and Development Pace"}
-        imgSrc={"/Images/ai1.png"}
+        imgSrc={"/Images/ai3.png"}
         description={
           "The AI market is one of the most dynamically growing areas of technology. According to reports, the global AI market is expected to reach $190.61 billion by 2025, with a CAGR (Compound Annual Growth Rate) of 36.6%. The key drivers behind this growth include advancements in machine learning, increasing demand for big data analytics, and growing adoption of AI technology across various sectors such as healthcare, finance, and transportation."
         }
@@ -19,7 +19,7 @@ export default function ComingSoon() {
       />
       <AiCard
         title={"AI, Crypto, and NFT Market"}
-        imgSrc={"/Images/ai3.png"}
+        imgSrc={"/Images/ai1.png"}
         description={
           "Artificial Intelligence and blockchain technology are two groundbreaking areas leading new technological innovations. The combination of these two technologies creates intriguing possibilities. For instance, Non-Fungible Tokens (NFTs) can leverage AI to create unique digital artworks or to provide exclusive AI-based services. Meanwhile, cryptocurrencies can benefit from AI by improving security mechanisms, transaction efficiency, and service personalization. Such combination brings substantial benefits for both developers and users, paving the way for unprecedented possibilities."
         }
