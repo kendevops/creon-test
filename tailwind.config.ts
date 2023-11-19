@@ -20,6 +20,7 @@ const config: Config = {
       colors: {
         Purple: "#AB23FF",
         GreyLine: "#13171D",
+        CardColor: "rgba(19, 23, 29, 0.60);",
       },
       fontFamily: {
         monument: "var(--font-monument)",
