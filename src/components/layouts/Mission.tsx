@@ -27,7 +27,7 @@ export default function Mission() {
           priority
         />
       </aside>
-      <aside className="lg:w-1/2 w-full flex flex-col gap-[30px]">
+      <aside className="lg:w-1/2 w-full flex flex-col gap-[30px] md:mb-[98px] lg:mb-0">
         <AccordionItem
           title="Profitability and"
           titleBrk="Growth"
