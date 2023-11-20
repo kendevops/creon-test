@@ -51,27 +51,38 @@ export default function Footer() {
         height={21}
         className="flex-shrink-0"
       />
-      {/* <video
-        src={require("../../../public/video.mov")}
-        autoPlay
-        loop
-        muted
-        className="absolute left-0 bottom-0 -z-20 object-cover flex-shrink-0"
-          /> */}
-      <video
-        width={1920}
-        height={970}
-        autoPlay
-        loop
-        muted
-        className="absolute w-[1920px] h-[970px] left-0 bottom-0 -z-20 object-cover flex-shrink-0"
-      >
-        <source
-          src="https://s3-figma-videos-production-sig.figma.com/video/935630556139161368/TEAM/6933/bb19/-1660-42f2-938f-1a29fa41ccd1?Expires=1701043200&Signature=otwiG9DjxZqUBaPRrQ8m7wSWJTtvNJlGPaZn~m~w5bdgrScYHqlm7TA9Z8Z7SrtqL-gq1lyx5WbD~xPOpo1DnDddwJqFgov9s2lSC9wZ0kwTD92JKlUTWVTMe0oFeTbWhXkSEHVooKP056SlPvjTNmRs8ck0e02FOIvkMFW6~0BHAI0Fo~HtjKx9KAdBdyTyWJSBksRy3tH7n8g9RxUrgSV~8S~R4fXkZUR1aKcYWCrzlzPJfmdBnBsm-FolNDaG2D3AIMDIad3o~asOFzEWL6~1i~Lp~64P6b0gFXWY4uysBySTMagwsXnugz0uZsAEjqdPDqjxXwcO-xCJZQhQZA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
-          type="video/mp4"
-        />
-      </video>
-      <div className="absolute w-[1920px] h-[970px] left-0 bottom-0 bg-gradient-to-r from-black via-transparent to-black mix-blend-soft-light"></div>
+      <>
+        <video
+          width={1920}
+          height={970}
+          autoPlay
+          loop
+          muted
+          className="xl:block hidden absolute w-[1920px] h-[970px] left-0 bottom-0 -z-20 object-cover flex-shrink-0"
+        >
+          <source
+            src="https://s3-figma-videos-production-sig.figma.com/video/935630556139161368/TEAM/6933/bb19/-1660-42f2-938f-1a29fa41ccd1?Expires=1701043200&Signature=otwiG9DjxZqUBaPRrQ8m7wSWJTtvNJlGPaZn~m~w5bdgrScYHqlm7TA9Z8Z7SrtqL-gq1lyx5WbD~xPOpo1DnDddwJqFgov9s2lSC9wZ0kwTD92JKlUTWVTMe0oFeTbWhXkSEHVooKP056SlPvjTNmRs8ck0e02FOIvkMFW6~0BHAI0Fo~HtjKx9KAdBdyTyWJSBksRy3tH7n8g9RxUrgSV~8S~R4fXkZUR1aKcYWCrzlzPJfmdBnBsm-FolNDaG2D3AIMDIad3o~asOFzEWL6~1i~Lp~64P6b0gFXWY4uysBySTMagwsXnugz0uZsAEjqdPDqjxXwcO-xCJZQhQZA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+            type="video/mp4"
+          />
+        </video>
+        <div className="xl:block hidden absolute w-[1920px] h-[970px] left-0 bottom-0 bg-gradient-to-r from-black via-transparent to-black mix-blend-soft-light"></div>
+      </>
+      <>
+        <video
+          width={1024}
+          height={517}
+          autoPlay
+          loop
+          muted
+          className="xl:hidden block absolute w-[1024px] h-[517px] left-0 bottom-0 -z-20 object-cover flex-shrink-0"
+        >
+          <source
+            src="https://s3-figma-videos-production-sig.figma.com/video/935630556139161368/TEAM/6933/bb19/-1660-42f2-938f-1a29fa41ccd1?Expires=1701043200&Signature=otwiG9DjxZqUBaPRrQ8m7wSWJTtvNJlGPaZn~m~w5bdgrScYHqlm7TA9Z8Z7SrtqL-gq1lyx5WbD~xPOpo1DnDddwJqFgov9s2lSC9wZ0kwTD92JKlUTWVTMe0oFeTbWhXkSEHVooKP056SlPvjTNmRs8ck0e02FOIvkMFW6~0BHAI0Fo~HtjKx9KAdBdyTyWJSBksRy3tH7n8g9RxUrgSV~8S~R4fXkZUR1aKcYWCrzlzPJfmdBnBsm-FolNDaG2D3AIMDIad3o~asOFzEWL6~1i~Lp~64P6b0gFXWY4uysBySTMagwsXnugz0uZsAEjqdPDqjxXwcO-xCJZQhQZA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+            type="video/mp4"
+          />
+        </video>
+        <div className="xl:hidden block absolute w-[1024px] h-[517px] left-0 bottom-0 bg-gradient-to-r from-black via-transparent to-black mix-blend-soft-light"></div>
+      </>
     </footer>
   );
 }
