@@ -1,42 +1,67 @@
 import Image from "next/image";
 
-const AccordionIcon = () => {
+type IconType = {
+  active: boolean;
+  imgSrc: string;
+};
+
+const AccordionIcon = ({ active, imgSrc }: IconType) => {
   return (
-    <div className="relative inline-block group w-[100px] h-[114px]">
+    <div className="relative group w-[100px] h-[114px] flex justify-center items-center flex-shrink-0">
+      <Image
+        src={imgSrc}
+        alt="Icon"
+        width={26}
+        height={26}
+        className="z-20 absolute w-[26px] h-[26px] flex-shrink-0"
+      />
+
+      <Image
+        src="/Icons/rNWhite.svg"
+        alt="Arrow"
+        width={56}
+        height={62}
+        className={`${
+          active ? "opacity-0" : "opacity-1"
+        } z-[11] absolute w-[56px] h-[62px] transition-opacity duration-300 flex-shrink-0`}
+      />
+
       <Image
         src="/Icons/rGrey.svg"
         alt="Arrow"
+        width={56}
+        height={62}
+        className={`${
+          active ? "opacity-1" : "opacity-0"
+        } z-10 absolute w-[56px] h-[62px] transition-opacity duration-300 flex-shrink-0`}
+      />
+
+      <Image
+        src="/Icons/rAWhite.svg"
+        alt="Arrow"
         width={68}
         height={76}
-        className="absolute inset-0 transition-opacity duration-300 group-hover:opacity-0"
+        className={`${
+          active ? "opacity-1" : "opacity-0"
+        } absolute w-[68px] h-[72px] transition-opacity duration-300 group-hover:opacity-0 flex-shrink-0`}
       />
+
       <Image
-        src="/Icons/rNWhite.svg"
+        src="/Icons/rNGrey.svg"
         alt="Arrow"
-        width={56}
-        height={62}
-        className="absolute inset-0 transition-opacity duration-300 group-hover:opacity-0"
+        width={68}
+        height={76}
+        className={`${
+          active ? "opacity-0" : "opacity-1"
+        } z-10 absolute w-[68px] h-[72px] transition-opacity duration-300 group-hover:opacity-0 flex-shrink-0`}
       />
-      <Image
-        src="/Icons/rNWhite.svg"
-        alt="Arrow"
-        width={56}
-        height={62}
-        className="absolute inset-0 transition-opacity duration-300 group-hover:opacity-0"
-      />
+
       <Image
         src="/Icons/rLinear.svg"
         alt="Arrow"
         width={100}
         height={114}
-        className="absolute inset-0 transition-opacity duration-300 group-hover:opacity-0"
-      />
-      <Image
-        src="/Icons/1.svg"
-        alt="Arrow"
-        width={26}
-        height={26}
-        className="z-10"
+        className="absolute w-[100px] h-[114px] transition-opacity duration-300 group-hover:opacity-0 flex-shrink-0"
       />
     </div>
   );
