@@ -11,13 +11,27 @@ import Profiting from "@/components/layouts/Profiting";
 export default function Home() {
   return (
     <main className="px-4 md:px-8 relative  bg-black z-20">
-      <Hero />
-      <CreonPass />
-      <Profiting />
-      <Mission />
-      <ComingSoon />
-      <Ai />
-      <Footer />
+      {/* Components for extra Large Screen 1920px and above */}
+      <section className="hidden xl:block">
+        <Hero />
+        <CreonPass />
+        <Profiting />
+        <Mission />
+        <ComingSoon />
+        <Ai />
+        <Footer />
+      </section>
+
+      {/* Components for extra Large Screen 1920px and above */}
+      <section className="block xl:hidden">
+        <Hero />
+        <Mission />
+        <CreonPass />
+        <Profiting />
+        <ComingSoon />
+        <Ai />
+        <Footer />
+      </section>
     </main>
   );
 }
