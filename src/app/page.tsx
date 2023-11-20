@@ -29,10 +29,8 @@ export default function Home() {
         <Profiting />
         <Ai />
         <CreonPass />
-        {/* 
         <ComingSoon />
-        <Ai />
-        <Footer /> */}
+        <Footer />
       </section>
     </main>
   );

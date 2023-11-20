@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="px-[190px] pt-[22px] pb-[41px] flex justify-between items-center">
+    <footer className="xl:px-[190px] pt-[22px] pb-[41px] flex justify-between items-center">
       <aside className="flex gap-[90px] flex-start">
         <p className="text-white text-base font-normal font-satoshi leading-[130%]">
           © Creon 2023. All rights reserved.

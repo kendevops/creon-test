@@ -2,7 +2,7 @@ import Token from "../atoms/Token";
 
 export default function ComingSoon() {
   return (
-    <section className="px-[190px] pt-[156px] pb-[155px] flex gap-10">
+    <section className="xl:px-[190px] py-[76px] xl:pt-[156px] xl:pb-[155px] flex gap-10">
       <Token
         title={"token"}
         subTitle={"The Gateway token to the world of AI"}
