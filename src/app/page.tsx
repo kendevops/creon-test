@@ -27,6 +27,7 @@ export default function Home() {
         <Hero />
         <Mission />
         <Profiting />
+        <Ai />
         {/* <CreonPass />
         <ComingSoon />
         <Ai />

@@ -2,7 +2,7 @@ import AiCard from "../atoms/AiCard";
 
 export default function ComingSoon() {
   return (
-    <section className="px-[190px] pt-20 pb-20 flex flex-col gap-10">
+    <section className="xl:px-[190px] pt-20 pb-20 flex flex-col gap-10">
       <AiCard
         title={"AI Prospects, Market Size, and Development Pace"}
         imgSrc={"/Images/ai3.png"}
