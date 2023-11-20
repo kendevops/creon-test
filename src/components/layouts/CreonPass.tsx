@@ -3,7 +3,7 @@ import CreonPassRight from "../molecules/CreonPassRight";
 
 export default function CreonPass() {
     return (
-      <section className="flex px-[190px]">
+      <section className="flex xl:px-[190px] ">
             <CreonPassLeft />
             <CreonPassRight />
       </section>
