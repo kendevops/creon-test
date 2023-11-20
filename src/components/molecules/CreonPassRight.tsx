@@ -46,7 +46,6 @@ export default function CreonPassRight() {
             />
           </video>
           <div className="absolute w-[694px] h-[694px] rounded-md inset-0 bg-video-pattern mix-blend-soft-light"></div>
-          
         </aside>
       </>
     </>
