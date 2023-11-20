@@ -22,7 +22,7 @@ export default function Home() {
         <Footer />
       </section>
 
-      {/* Components for extra Large Screen 1920px and above */}
+      {/* Components for Large Screen 1024px and below */}
       <section className="block xl:hidden">
         <Hero />
         <Mission />

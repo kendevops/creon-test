@@ -32,7 +32,7 @@ export default function ComingSoon() {
         </section>
       </>
       <>
-        <section className="xl:hidden py-[76px] flex gap-5">
+        <section className="xl:hidden py-[76px] flex gap-5 overflow-x-auto ">
           <Token
             title={"token"}
             subTitle={"Empowering NFT Holders and Shaping AI Development"}
@@ -51,7 +51,9 @@ export default function ComingSoon() {
           />
           <Token
             title={"launchpad"}
-            subTitle={"Driving the future of AI InnovationUnlocking Tokenized AI Projects"}
+            subTitle={
+              "Driving the future of AI InnovationUnlocking Tokenized AI Projects"
+            }
             imgSrc={"/Images/comingS3.png"}
             description={
               "AI Launchpad, an essential component of our initiative, represents a groundbreaking opportunity in the realm of AI and blockchain. It provides the first known platform for acquiring allocations in tokenized AI projects, offering our community of NFT and CREON token holders early access to innovative and promising AI endeavors."
