@@ -21,7 +21,7 @@ export default function Profiting() {
 
         <div className="absolute w-[947px] h-[485px] rounded-md inset-0 bg-image-pattern mix-blend-soft-light"></div>
 
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center border-x border-GreyLine px-[30px]">
           <h4 className="mb-[28px] text-white font-satoshi font-bold text-[22px] leading-[130%]">
             The dynamic community driven business model of the future.
           </h4>
@@ -51,7 +51,7 @@ export default function Profiting() {
         </video>
         <div className="absolute w-[636px] h-[493px] rounded-md inset-0 bg-video-pattern mix-blend-soft-light"></div>
 
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center border-x border-GreyLine px-[20px]">
           <h4 className="mb-[20px] text-white font-satoshi font-bold text-lg leading-[130%]">
             A Dynamic Business Model for Sustainable Growth and Community
             Engagement.

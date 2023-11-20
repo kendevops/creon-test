@@ -14,26 +14,34 @@ export default function Token({
   description,
 }: CardType) {
   return (
-    <div className="py-[30px] w-[453px] h-[659px] rounded-md bg-CardColor flex-shrink-0 relative">
-      <p className="absolute inline-flex py-[3px] px-[6px] justify-center items-center font-satoshi bg-white text-black text-[12px] font-bold leading-[110%] duration-300 transform -translate-y-4 scale-100 top-2 z-10 origin-[0] right-8 rounded-[100px]">
+    <div className="xl:py-[30px] py-[20px] w-[308px] h-[616px] xl:w-[453px] xl:h-[659px] rounded-md bg-CardColor flex-shrink-0 relative">
+      <p className="absolute inline-flex py-[3px] px-[6px] justify-center items-center font-satoshi bg-white text-black text-xs font-bold leading-[110%] duration-300 transform -translate-y-4 scale-100 top-2 z-10 origin-[0] right-8 rounded-[100px]">
         COMING SOON
       </p>
-      <div className="mx-[30px] mb-[30px] h-[119px]">
-      <h1 className="text-white font-monument text-[38px] font-normal uppercase leading-[120%]">
-        {title}
-      </h1>
-      <h6 className="bg-linear bg-clip-text text-transparent font-satoshi font-bold text-[22px]">
-        {subTitle}
-      </h6>
+      <div className="xl:mx-[30px] xl:mb-[30px] mx-[20px] mb-[20px] xl:max-h-[119px] max-h-[90px]">
+        <h1 className="text-white font-monument text-[28px] xl:text-[38px] font-normal uppercase leading-[120%]">
+          {title}
+        </h1>
+        <h6 className="bg-linear bg-clip-text text-transparent font-satoshi font-bold text-lg xl:text-[22px]">
+          {subTitle}
+        </h6>
       </div>
       <Image
         src={imgSrc}
         alt="Comming Soon"
         width={423}
         height={234}
-        className="flex-shrink-0 my-[3n0px] ml-0 mr-[30px] mb-[30px]"
+        className="flex-shrink-0 ml-0 mr-[30px] mb-[30px] xl:block hidden"
       />
-      <p className="text-white text-[18px] font-satoshi font-normal leading-[130%] px-[30px]">
+      <Image
+        src={imgSrc}
+        alt="Comming Soon"
+        width={288}
+        height={234}
+        className="flex-shrink-0 ml-0 mr-[20px] mb-[20px] xl:hidden"
+      />
+
+      <p className="text-white text-base xl:text-lg font-satoshi font-normal leading-[130%] px-[20px] xl:px-[30px]">
         {description}
       </p>
     </div>
