@@ -26,12 +26,14 @@ export default function AccordionItem({
     setIsOpen(!isOpen);
   };
   return (
-    <div className={`justify-start items-start inline-flex flex-col gap-[30px] pb-[30px] border-b border-GreyLine ${className}`}>
+    <div
+      className={`justify-start items-start inline-flex flex-col gap-[30px] pb-[30px] border-b border-GreyLine ${className}`}
+    >
       <div className="flex gap-[30px]">
         <AccordionIcon active={isOpen} imgSrc={iconSrc} show={showIcon} />
         <div className="flex-col flex">
           <div className="flex py-[28px]">
-            <h1 className="w-[366px] text-white font-satoshi text-lg xl:text-[22px] font-bold leading-[130%]">
+            <h1 className="xl:w-[366px] w-[323px] text-white font-satoshi text-lg xl:text-[22px] font-bold leading-[130%]">
               {title} <br /> {titleBrk}
             </h1>
             <Image

@@ -10,7 +10,7 @@ import Profiting from "@/components/layouts/Profiting";
 
 export default function Home() {
   return (
-    <main className="px-4 md:px-8 relative  bg-black z-20">
+    <main className="px-[30px] md:px-8 relative  bg-black z-20">
       {/* Components for extra Large Screen 1920px and above */}
       <section className="hidden xl:block">
         <Hero />
@@ -26,11 +26,11 @@ export default function Home() {
       <section className="block xl:hidden">
         <Hero />
         <Mission />
-        <CreonPass />
         <Profiting />
+        {/* <CreonPass />
         <ComingSoon />
         <Ai />
-        <Footer />
+        <Footer /> */}
       </section>
     </main>
   );
