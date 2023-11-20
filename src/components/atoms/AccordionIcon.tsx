@@ -3,9 +3,10 @@ import Image from "next/image";
 type IconType = {
   active: boolean;
   imgSrc: string;
+  show: boolean;
 };
 
-const AccordionIcon = ({ active, imgSrc }: IconType) => {
+const AccordionIcon = ({ active, imgSrc, show }: IconType) => {
   return (
     <div className="relative group w-[100px] h-[114px] flex justify-center items-center flex-shrink-0">
       <Image
@@ -13,7 +14,7 @@ const AccordionIcon = ({ active, imgSrc }: IconType) => {
         alt="Icon"
         width={26}
         height={26}
-        className="z-20 absolute w-[26px] h-[26px] flex-shrink-0"
+        className={`${!show && "hidden"} block z-20 absolute w-[26px] h-[26px] flex-shrink-0`}
       />
 
       <Image
