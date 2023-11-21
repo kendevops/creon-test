@@ -3,12 +3,12 @@ import { CardType } from "./Token";
 
 export default function AiCard({ title, description, imgSrc }: CardType) {
   return (
-    <article className="flex flex-col-reverse md:flex-row xl:h-[302px] xl:w-[1440px]  rounded-md bg-CardColor">
+    <article className="flex flex-col-reverse md:flex-row xl:h-[302px] xl:w-[1440px]  rounded-md bg-CardColor justify-between ">
       <div className="flex flex-col py-[24px] md:pl-[24px] md:pr-[30px]  xl:py-10 xl:px-10 w-[256px] md:w-auto">
         <h1 className="text-white font-monument text-[22px] md:text-[28px] xl:text-[38px] font-normal uppercase leading-[130%]">
           {title}
         </h1>
-        <p className="text-white font-satoshi self-stretch text-base xl:text-lg font-normal text-ellipsis overflow-hidden">
+        <p className="text-white font-satoshi self-stretch text-base xl:text-lg font-normal">
           {description}
         </p>
       </div>
