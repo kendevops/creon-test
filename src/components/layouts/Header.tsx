@@ -20,7 +20,6 @@ export default function Header() {
         className="flex-shrink-0"
         width={100}
         height={24}
-        priority
       />
       <section className="text-white flex gap-3 md:gap-6">
         <Nav showMenu={showMenu} toggle={toggleMenu} />
