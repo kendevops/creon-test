@@ -4,12 +4,13 @@ export default function Hero() {
   return (
     <section className="h-screen flex flex-col px-[15px] md:px-[30px] lg:px-0">
       <video
-        src={require("/Video/video.mov")}
         autoPlay
         loop
         muted
         className="absolute inset-0 -z-20 object-cover h-screen flex-shrink-0"
-      />
+      >
+        <source src="/Video/video.mov" type="video/mp4" />
+      </video>
       <Header />
       <div className="absolute inset-0 -z-10 bg-hero-pattern mix-blend-soft-light"></div>
 
