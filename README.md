@@ -51,7 +51,9 @@ The project structure is organized as follows:
 - Followed best practices for component-based architecture.
 - Emphasized modular design to enhance code maintainability.
 - Utilized responsive design principles for optimal user experience across devices.
+- Utilized git branching to develop different stages of the application 
 - Wrote this readme to document my work process
+
 
 
 ## Scripts to test Project
