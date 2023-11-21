@@ -2,7 +2,7 @@ import Header from "./Header";
 
 export default function Hero() {
   return (
-    <section className="h-screen flex flex-col ">
+    <section className="h-screen flex flex-col px-[15px] md:px-[30px] lg:px-0">
       <video
         src={require("../../../public/video.mov")}
         autoPlay
@@ -25,11 +25,11 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <div className="xl:hidden flex flex-col mb-[100px] mt-auto lg:mb-[70px]">
-        <h1 className="w-[465px] font-monument text-white font-normal uppercase text-[44px] leading-[110%] mb-[26px] lg:w-full">
+      <div className="xl:hidden flex flex-col mb-[70px] md:mb-[100px] mt-auto lg:mb-[70px]">
+        <h1 className="w-[345px] md:w-[465px] font-monument text-white font-normal uppercase text-[32px] md:text-[44px] leading-[110%] mb-[26px] lg:w-full">
           Empowering AI-Crypto Innovations and Integrating AI Tools into crypto.
         </h1>
-        <div className="w-[465px] border-y bg-linear bg-clip-border border-transparent lg:w-[656px]">
+        <div className="w-[345px] md:w-[465px] border-y bg-linear bg-clip-border border-transparent lg:w-[656px]">
           <div className="bg-black pt-[7px] pb-[12px]">
             <p className="bg-linear bg-clip-text text-transparent font-bold font-satoshi text-[18px] leading-[130%]">
               Creon «Create On» confidential AI Tools for granting access
