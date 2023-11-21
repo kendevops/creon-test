@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section className="h-screen flex flex-col px-[15px] md:px-[30px] lg:px-0">
       <video
-        src={require("../../../public/video.mov")}
+        src={require("../../../public/Video/video.mov")}
         autoPlay
         loop
         muted
