@@ -31,7 +31,7 @@ export default function CreonPassLeft() {
         </aside>
       </>
       <>
-        <aside className="flex flex-col w-full lg:w-1/2 my-[113px] mr-[10px] xl:hidden">
+        <aside className="flex flex-col w-full py-20 md:pt-[140px] md:pb-[209px]  lg:w-1/2 lg:py-[113px] xl:mr-[10px] xl:hidden">
           <h1 className="text-white font-monument text-[32px] md:text-[44px] font-normal uppercase leading-[110% mb-[20px] pb-[20px] border-b border-GreyLine">
             creon pass nft
           </h1>
