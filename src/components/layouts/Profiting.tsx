@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Profiting() {
   return (
-    <section className="pt-[72px] pb-[71px] xl:pt-[120px] xl:pb-[141px] xl:px-[190px]">
+    <section className="py-[80px] md:py-[145px] lg:pt-[72px] lg:pb-[71px] xl:pt-[120px] xl:pb-[141px] xl:px-[190px]">
       <h1 className="text-white font-monument xl:text-[68px] text-[44px] font-normal uppercase leading-[110%]">
         Profiting Through
       </h1>
@@ -35,7 +35,7 @@ export default function Profiting() {
           </p>
         </div>
       </div>
-      <div className="flex relative gap-[45px] xl:hidden">
+      <div className="flex flex-col lg:flex-row relative gap-[30px] mt-10 lg:mt-0 lg:gap-[45px] xl:hidden">
         <video
           width="636"
           height="493"
@@ -51,7 +51,7 @@ export default function Profiting() {
         </video>
         <div className="absolute w-[636px] h-[493px] rounded-md inset-0 bg-video-pattern mix-blend-soft-light"></div>
 
-        <div className="flex flex-col justify-center items-center border-x border-GreyLine px-[20px]">
+        <div className="flex flex-col justify-center items-center border-y border-x-0 lg:border-y-0 lg:border-x border-GreyLine px-[20px]">
           <h4 className="mb-[20px] text-white font-satoshi font-bold text-lg leading-[130%]">
             A Dynamic Business Model for Sustainable Growth and Community
             Engagement.
