@@ -26,7 +26,8 @@ export default function Home() {
       <section className="block xl:hidden">
         <Hero />
         <Mission />
-        {/* <Profiting />
+        <Profiting />
+        {/* 
         <Ai />
         <CreonPass />
         <ComingSoon />
