@@ -32,15 +32,15 @@ export default function CreonPassLeft() {
       </>
       <>
         <aside className="flex flex-col w-full lg:w-1/2 my-[113px] mr-[10px] xl:hidden">
-          <h1 className="text-white font-monument text-[44px] font-normal uppercase leading-[110% mb-[20px] pb-[20px] border-b border-GreyLine">
+          <h1 className="text-white font-monument text-[32px] md:text-[44px] font-normal uppercase leading-[110% mb-[20px] pb-[20px] border-b border-GreyLine">
             creon pass nft
           </h1>
-          <p className="bg-linear bg-clip-text text-transparent font-bold font-satoshi text-lg leading-[130%] lg:mb-[30px] mb-[55px]">
+          <p className="bg-linear bg-clip-text text-transparent font-bold font-satoshi text-lg leading-[130%] lg:mb-[30px] md:mb-[55px]">
             Access to confidential AI tools enabling business optimization and
             development. Only NFT holders will have the ability to use a given
             tool.
           </p>
-          <article className="lg:w-full w-1/3">
+          <article className="lg:w-full md:w-1/3 w-full mt-[539px] md:mt-0">
             <div className="inline-flex justify-center items-center border rounded-md px-4 pt-[10px] pb-4 border-GreyLine mb-[10px]">
               <p className="font-satoshi font-normal text-base leading-[130%] text-white">
                 {
@@ -48,7 +48,7 @@ export default function CreonPassLeft() {
                 }
               </p>
             </div>
-            <div className="flex flex-col lg:flex-row gap-[10px]">
+            <div className="flex md:flex-col lg:flex-row gap-[10px]">
               <div className="inline-flex border rounded-md px-4 pt-[10px] pb-4 border-GreyLine">
                 <p className="font-satoshi font-normal text-base leading-[130%] text-white">
                   {
@@ -65,7 +65,7 @@ export default function CreonPassLeft() {
               </div>
             </div>
           </article>
-          <button className="w-1/3 lg:w-[50%] flex justify-center items-center rounded-md bg-linear text-white font-satoshi text-base font-bold pl-[58px] pr-[56px] pt-3 mt-[30px] pb-[22px] flex-shrink-0">
+          <button className="w-full md:w-1/3 lg:w-[50%] flex justify-center items-center rounded-md bg-linear text-white font-satoshi text-base font-bold pl-[58px] pr-[56px] pt-3 mt-[30px] pb-[22px] flex-shrink-0">
             Buy Creon Pass
           </button>
         </aside>

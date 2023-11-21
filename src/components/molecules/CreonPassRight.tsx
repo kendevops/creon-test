@@ -31,7 +31,7 @@ export default function CreonPassRight() {
         </aside>
       </>
       <>
-        <aside className="flex w-1/2  xl:hidden">
+        <aside className="hidden md:flex w-1/2  xl:hidden">
           <video
             width="694"
             height="694"
@@ -46,6 +46,24 @@ export default function CreonPassRight() {
             />
           </video>
           <div className="absolute w-[694px] h-[694px] rounded-md bg-video-pattern mix-blend-soft-light bottom-0 -right-20 -z-[5]"></div>
+        </aside>
+      </>
+      <>
+        <aside className="flex md:hidden w-1/2">
+          <video
+            width="485"
+            height="485"
+            autoPlay
+            loop
+            muted
+            className="flex-shrink-0 object-cover absolute w-[485px] h-[485px] top-[23rem] right-0 -z-10"
+          >
+            <source
+              src="https://s3-figma-videos-production-sig.figma.com/video/935630556139161368/TEAM/2f74/56c3/-b645-4e00-ba7a-db1f08b78d66?Expires=1701043200&Signature=YTG9kSMrNVEZul~WgmxHzbS6yw-gA~lQpRygCKOkEWrGZzt91vTWjqS65hPr88V5nd2Jf84JjnSfVf3VSjX3~fjNh9O3rASZ~PiP3Vm1rPADzymyy5trRSdL6qrNUk-UVqq8zx8jSc6NOibGPLNpBVzRvmmA4ja1GUwVzC5jAICOujdwfT71SfVweI-Jihmr9NxPFE9jOIRP7c39EdG6z221SxpnFCiS7hvX4fxPpOtiD0Kv0MbAAZ5N4UeoHskZGI2Tx8Q2E~jMhkyk4guqTLarHA4sb1cxCNUUv8BASGOwkHbU0hJWck3AXGaxRANr~6-E5qaF9aHZo-GH6E5FpQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+              type="video/mp4"
+            />
+          </video>
+          <div className="absolute w-[485px] h-[485px] rounded-md bg-video-pattern mix-blend-soft-light top-[23rem] right-0 -z-[5]"></div>
         </aside>
       </>
     </>
