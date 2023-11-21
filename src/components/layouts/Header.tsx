@@ -15,7 +15,7 @@ export default function Header() {
   return (
     <header className="flex pt-5 justify-between">
       <Image
-        src="/Icons/logo.svg"
+        src="/Images/logo.png"
         alt="Creon Logo"
         className="flex-shrink-0"
         width={100}
