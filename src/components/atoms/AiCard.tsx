@@ -3,7 +3,7 @@ import { CardType } from "./Token";
 
 export default function AiCard({ title, description, imgSrc }: CardType) {
   return (
-    <article className="flex xl:h-[302px] xl:w-[1440px] w-[964px] h-[260px] rounded-md bg-CardColor">
+    <article className="flex xl:h-[302px] xl:w-[1440px]  rounded-md bg-CardColor">
       <div className="flex flex-col py-[24px] pl-[24px] pr-[30px]  xl:py-10 xl:px-10">
         <h1 className="text-white font-monument text-[28px] xl:text-[38px] font-normal uppercase leading-[130%]">
           {title}
