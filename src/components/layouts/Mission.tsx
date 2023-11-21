@@ -3,7 +3,7 @@ import AccordionItem from "../atoms/AccordionItem";
 
 export default function Mission() {
   return (
-    <section className="px-[15px] pt-[80] md:px-[30px] lg:px-0 xl:px-[190px] xl:pt-[115px] md:pt-[118px] lg:pt-[95px] relative flex flex-col lg:flex-row lg:gap-[127px] xl:gap-0 overflow-hidden">
+    <section className="px-[15px] pt-[80px] pb-[59px] md:px-[30px] lg:px-0 xl:px-[190px] xl:pt-[115px] md:pt-[118px] lg:pt-[95px] relative flex flex-col lg:flex-row lg:gap-[127px] xl:gap-0 overflow-hidden">
       <aside className="lg:w-1/2 w-full mb-[150px] md:mb-[30px] lg:mb-0">
         <h1 className="hidden xl:block xl:w-[699px] text-white font-monument font-normal text-[38px] uppercase leading-[120%]">
           Our vision is to support the innovation of AI blockchain projects{" "}
@@ -11,7 +11,7 @@ export default function Mission() {
             while prioritizing communities and democratizing profits
           </span>
         </h1>
-        <h1 className="xl:hidden lg:w-[365px] text-white font-monument font-normal text-[28px] uppercase leading-[120%]">
+        <h1 className="xl:hidden lg:w-[365px] text-white font-monument font-normal text-[22px] md:text-[28px] uppercase leading-[120%]">
           our mission is to provide unique, confidential AI-based tools, to
           which you will gain{" "}
           <span className="bg-linear bg-clip-text text-transparent">
@@ -21,7 +21,7 @@ export default function Mission() {
         <Image
           src="/Images/Creon2.png"
           alt="Creon Moon Image"
-          className="flex-shrink-0 absolute xl:left-80 lg:left-0 lg:right-0 xl:-bottom-28 -bottom-16 -z-10 right-[-15rem]"
+          className="flex-shrink-0 absolute xl:left-80 lg:left-0 lg:right-0 xl:-bottom-28 md:-bottom-16 -z-10 right-[-6rem] bottom-[44rem] md:right-[-15rem]"
           width={836}
           height={502}
           priority

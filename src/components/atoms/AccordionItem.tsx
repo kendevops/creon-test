@@ -33,7 +33,7 @@ export default function AccordionItem({
         <AccordionIcon active={isOpen} imgSrc={iconSrc} show={showIcon} />
         <div className="flex-col flex">
           <div className="flex py-[28px]">
-            <h1 className="xl:w-[366px] w-[323px] text-white font-satoshi text-lg xl:text-[22px] font-bold leading-[130%]">
+            <h1 className="w-[196px] xl:w-[366px] md:w-[323px] text-white font-satoshi text-base md:text-lg xl:text-[22px] font-bold leading-[130%]">
               {title} <br /> {titleBrk}
             </h1>
             <Image

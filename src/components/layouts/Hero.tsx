@@ -25,7 +25,7 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <div className="xl:hidden flex flex-col mb-[150px] md:mb-[100px] mt-auto lg:mb-[70px]">
+      <div className="xl:hidden flex flex-col mb-[70px] md:mb-[100px] mt-auto lg:mb-[70px]">
         <h1 className="w-[345px] md:w-[465px] font-monument text-white font-normal uppercase text-[32px] md:text-[44px] leading-[110%] mb-[26px] lg:w-full">
           Empowering AI-Crypto Innovations and Integrating AI Tools into crypto.
         </h1>
