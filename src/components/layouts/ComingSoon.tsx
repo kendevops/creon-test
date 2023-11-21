@@ -32,7 +32,7 @@ export default function ComingSoon() {
         </section>
       </>
       <>
-        <section className="xl:hidden py-[76px] flex lg:justify-center lg:items-center gap-5 overflow-x-auto hide-scrollbar">
+        <section className="pl-[15px] py-[80px] flex  gap-5 overflow-x-auto hide-scrollbar md:pl-[30px] lg:px-0 md:py-[204px] lg:py-[76px] lg:justify-center lg:items-center xl:hidden">
           <Token
             title={"token"}
             subTitle={"Empowering NFT Holders and Shaping AI Development"}

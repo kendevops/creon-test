@@ -10,7 +10,7 @@ import Profiting from "@/components/layouts/Profiting";
 
 export default function Home() {
   return (
-    <main className="px-[30px] md:px-8 relative  bg-black z-20">
+    <main className="px-0 lg:px-8 relative  bg-black z-20">
       {/* Components for extra Large Screen 1920px and above */}
       <section className="hidden xl:block">
         <Hero />

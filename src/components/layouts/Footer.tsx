@@ -3,9 +3,9 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="xl:px-[190px] pt-[22px] pb-[41px] flex justify-between items-center">
-      <aside className="flex gap-[90px] flex-start">
-        <p className="text-white text-base font-normal font-satoshi leading-[130%]">
+    <footer className="flex flex-col justify-between items-center gap-[13px] pt-[22px] pb-[41px] px-[82px] md:gap-0 md:px-[30px] lg:px-0  md:flex-row  xl:px-[190px]">
+      <aside className="flex flex-col-reverse justify-center gap-[28px] items-center md:flex-row md:gap-[90px] md:flex-start">
+        <p className="text-white text-sm md:text-base font-normal font-satoshi leading-[130%]">
           © Creon 2023. All rights reserved.
         </p>
         <div className="flex gap-[10px]">
