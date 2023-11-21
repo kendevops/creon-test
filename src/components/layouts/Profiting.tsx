@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Profiting() {
   return (
-    <section className="py-[80px] md:py-[145px] lg:pt-[72px] lg:pb-[71px] xl:pt-[120px] xl:pb-[141px] xl:px-[190px]">
+    <section className="py-[80px] px-[15px] md:px-[30px] lg:px-0 md:py-[145px] lg:pt-[72px] lg:pb-[71px] xl:pt-[120px] xl:pb-[141px] xl:px-[190px]">
       <h1 className="text-white font-monument xl:text-[68px] text-[44px] font-normal uppercase leading-[110%]">
         Profiting Through
       </h1>
@@ -35,7 +35,7 @@ export default function Profiting() {
           </p>
         </div>
       </div>
-      <div className="flex flex-col lg:flex-row relative gap-[30px] mt-10 lg:mt-0 lg:gap-[45px] xl:hidden">
+      <div className="flex flex-col items-center lg:flex-row relative gap-[30px] mt-10 lg:mt-0 lg:gap-[45px] xl:hidden">
         <video
           width="636"
           height="493"

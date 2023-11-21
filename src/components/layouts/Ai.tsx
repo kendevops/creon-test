@@ -2,7 +2,7 @@ import AiCard from "../atoms/AiCard";
 
 export default function ComingSoon() {
   return (
-    <section className="flex gap-5 px-[15px] py-[30px] overflow-x-auto hide-scrollbar md:flex-col lg:gap-10 md:px-[30px] lg:px-0 md:py-10 lg:py-20 xl:px-[190px]">
+    <section className="flex gap-5 pl-[15px] py-[30px] overflow-x-auto hide-scrollbar md:flex-col lg:gap-10 md:px-[30px] lg:px-0 md:py-10 lg:py-20 xl:px-[190px]">
       <AiCard
         title={"AI Prospects, Market Size, and Development Pace"}
         imgSrc={"/Images/ai3.png"}

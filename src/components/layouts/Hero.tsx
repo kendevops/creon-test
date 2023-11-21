@@ -2,7 +2,7 @@ import Header from "./Header";
 
 export default function Hero() {
   return (
-    <section className="h-screen flex flex-col ">
+    <section className="h-screen flex flex-col px-[15px] md:px-[30px] lg:px-0">
       <video
         src={require("../../../public/video.mov")}
         autoPlay

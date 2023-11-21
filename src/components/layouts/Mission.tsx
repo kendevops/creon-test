@@ -3,7 +3,7 @@ import AccordionItem from "../atoms/AccordionItem";
 
 export default function Mission() {
   return (
-    <section className="pt-[80] xl:px-[190px] xl:pt-[115px] md:pt-[118px] lg:pt-[95px] relative flex flex-col lg:flex-row lg:gap-[127px] xl:gap-0 overflow-hidden">
+    <section className="px-[15px] pt-[80] md:px-[30px] lg:px-0 xl:px-[190px] xl:pt-[115px] md:pt-[118px] lg:pt-[95px] relative flex flex-col lg:flex-row lg:gap-[127px] xl:gap-0 overflow-hidden">
       <aside className="lg:w-1/2 w-full mb-[150px] md:mb-[30px] lg:mb-0">
         <h1 className="hidden xl:block xl:w-[699px] text-white font-monument font-normal text-[38px] uppercase leading-[120%]">
           Our vision is to support the innovation of AI blockchain projects{" "}
