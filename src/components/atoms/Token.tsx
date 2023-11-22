@@ -26,16 +26,16 @@ export default function Token({
           {subTitle}
         </h6>
       </div>
-      <div className="w-[423px] h-[234px]  ml-0 mr-[30px] mb-[30px] overflow-hidden">
+      <div className="w-[423px] h-[234px]  ml-0 mr-[30px] mb-[30px] overflow-hidden xl:block hidden">
         <Image
           src={imgSrc}
           alt="Comming Soon"
           width={423}
           height={234}
-          className="flex-shrink-0 transform transition-transform hover:scale-110 xl:block hidden"
+          className="flex-shrink-0 transform transition-transform hover:scale-110 "
         />
       </div>
-      <div className="w-[288px] h-[234px]  ml-0 mr-[20px] mb-[20px] overflow-hidden">
+      <div className="w-[288px] h-[234px]  ml-0 mr-[20px] mb-[20px] overflow-hidden xl:hidden">
         <Image
           src={imgSrc}
           alt="Comming Soon"
