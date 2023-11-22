@@ -32,8 +32,8 @@ export default function AccordionItem({
       <div className="flex gap-[30px]">
         <AccordionIcon active={isOpen} imgSrc={iconSrc} show={showIcon} />
         <div className="flex-col flex">
-          <div className="flex py-[28px]">
-            <h1 className="w-[196px] xl:w-[366px] md:w-[323px] text-white font-satoshi text-base md:text-lg xl:text-[22px] font-bold leading-[130%]">
+          <div className="flex py-[28px] cursor-pointer">
+            <h1 className="w-[196px] xl:w-[366px] md:w-[323px] text-white transition-colors hover:text-blue-600 font-satoshi text-base md:text-lg xl:text-[22px] font-bold leading-[130%]">
               {title} <br /> {titleBrk}
             </h1>
             <Image
@@ -42,7 +42,7 @@ export default function AccordionItem({
               width={16}
               height={16}
               onClick={toggleAccordion}
-              className={`transition-transform transform cursor-pointer ${
+              className={`transition-transform transform ${
                 isOpen ? "rotate-180" : "rotate-0"
               } flex-shrink-0`}
             />
