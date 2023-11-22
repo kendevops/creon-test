@@ -17,9 +17,16 @@ export default function Header() {
       <Image
         src="/Images/logo.png"
         alt="Creon Logo"
-        className="flex-shrink-0"
-        width={100}
-        height={24}
+        className="hidden flex-shrink-0 xl:block"
+        width={140}
+        height={39}
+      />
+      <Image
+        src="/Images/logo.svg"
+        alt="Creon Logo"
+        className="flex-shrink-0 xl:hidden"
+        width={140}
+        height={39}
       />
       <section className="text-white flex gap-3 md:gap-6">
         <Nav showMenu={showMenu} toggle={toggleMenu} />
