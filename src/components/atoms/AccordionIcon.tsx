@@ -44,7 +44,7 @@ const AccordionIcon = ({ active, imgSrc, show }: IconType) => {
         height={76}
         className={`${
           active ? "opacity-1" : "opacity-0"
-        } absolute w-[68px] h-[72px] transition-opacity duration-300 group-hover:opacity-0 flex-shrink-0`}
+        } absolute w-[68px] h-[72px] transition-opacity duration-300 flex-shrink-0`}
       />
 
       <Image
@@ -54,7 +54,7 @@ const AccordionIcon = ({ active, imgSrc, show }: IconType) => {
         height={76}
         className={`${
           active ? "opacity-0" : "opacity-1"
-        } z-10 absolute w-[68px] h-[72px] transition-opacity duration-300 group-hover:opacity-0 flex-shrink-0`}
+        } z-10 absolute w-[68px] h-[72px] transition-opacity duration-300 flex-shrink-0`}
       />
 
       <Image
@@ -62,7 +62,7 @@ const AccordionIcon = ({ active, imgSrc, show }: IconType) => {
         alt="Arrow"
         width={100}
         height={114}
-        className="absolute w-[100px] h-[114px] transition-opacity duration-300 group-hover:opacity-0 flex-shrink-0"
+        className="absolute w-[100px] h-[114px] transition-opacity duration-300 flex-shrink-0"
       />
     </div>
   );
