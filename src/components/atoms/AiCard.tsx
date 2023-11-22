@@ -24,7 +24,7 @@ export default function AiCard({ title, description, imgSrc }: CardType) {
         alt="Ai Image"
         width={308}
         height={260}
-        className="flex-shrink-0 hidden md:block"
+        className="flex-shrink-0 hidden md:block xl:hidden"
       />
       <Image
         src={imgSrc}
