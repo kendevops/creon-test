@@ -37,7 +37,7 @@ export default function Footer() {
           >
             <Image
               alt="creon telegram"
-              src="/icons/twitter.svg"
+              src="/Icons/x.svg"
               width={16}
               height={16}
             />
