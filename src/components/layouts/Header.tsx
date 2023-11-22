@@ -22,7 +22,7 @@ export default function Header() {
         height={39}
       />
       <Image
-        src="/Icons/logo.svg"
+        src="/Images/logo.png"
         alt="Creon Logo"
         className="flex-shrink-0 xl:hidden"
         width={120}
